@@ -1,5 +1,11 @@
 import processing.core.PApplet;
 
+/**
+* A program Sketch.java that draws 8 quadrants consisting of squares in different patterns and colours.
+* @author: H. Rahukulan
+* 
+*/
+
 public class Sketch extends PApplet {
 
   public void settings() {
@@ -179,7 +185,7 @@ public class Sketch extends PApplet {
 
     for (int intRow = 0; intRow < 30; intRow++) {
       for (int intColumn = 0; intColumn <= intRow; intColumn++) {
-        intX = 3 + 600 + intRow * 10;
+        intX = 3 + 890 - intRow * 10;
         intY = 3 + intColumn * 10;
 
         fill(255);
