@@ -57,9 +57,7 @@ public class Sketch extends PApplet {
     rect(900, 0, 300, 300);
   }
 
-  /**
-   * Draws the bottom left section
-   */
+  // Section 1
   public void draw_section1() {
     int intX = 0;
     int intY = 0;
@@ -76,10 +74,7 @@ public class Sketch extends PApplet {
     }
   }
 
-  /**
-   * Use the modulus operator and an if statement to select the color
-   * Don't loop from 30 to 60 to shift everything over, just add 300 to x.
-   */
+  // Section 2
   public void draw_section2() {
     int intX = 0;
     int intY = 0;
@@ -101,10 +96,7 @@ public class Sketch extends PApplet {
     }
   }
 
-  /**
-   * Use the modulus operator and an if/else statement to select the color.
-   * Don't use multiple 'if' statements.
-   */
+  // Section 3
   public void draw_section3() {
     int intX = 0;
     int intY = 0;
@@ -126,9 +118,7 @@ public class Sketch extends PApplet {
     }
   }
 
-  /**
-   * Use the modulus operator and just one 'if' statement to select the color.
-   */
+  // Section 4
   public void draw_section4() {
     int intX = 0;
     int intY = 0;
@@ -150,9 +140,7 @@ public class Sketch extends PApplet {
     }
   }
 
-  /**
-   * Do NOT use 'if' statements to complete 5-8. Manipulate the loops instead
-   */
+  // Section 5
   public void draw_section5() {
     int intX = 0;
     int intY = 0;
@@ -169,6 +157,7 @@ public class Sketch extends PApplet {
     }
   }
 
+  // Section 6
   public void draw_section6() {
     int intX = 0;
     int intY = 0;
@@ -185,6 +174,7 @@ public class Sketch extends PApplet {
     }
   }
 
+  // Section 7
   public void draw_section7() {
     int intX = 0;
     int intY = 0;
@@ -201,6 +191,7 @@ public class Sketch extends PApplet {
     }
   }
 
+  // Section 8
   public void draw_section8() {
     int intX = 0;
     int intY = 0;
