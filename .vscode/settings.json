@@ -3,7 +3,8 @@
         "include": [
             "lib/**/*.jar",
             "/Users/cherrie/Documents/ICS3U1b 2023:24/JARs/core.jar",
-            "/Users/rahukuh4262/Downloads/core.jar"
+            "/Users/rahukuh4262/Downloads/core.jar",
+            "c:\\Users\\haris\\Downloads\\core (1).jar"
         ],
         "exclude": [
             "lib/repl_core.jar"

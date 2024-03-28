@@ -87,9 +87,11 @@ public class Sketch extends PApplet {
         if (intRow % 2 == 0) {
           fill(255);
         }
+
         else {
           fill(0);
         }
+
         noStroke();
         rect(intX, intY, 5, 5);
       }
@@ -109,9 +111,11 @@ public class Sketch extends PApplet {
         if (intColumn % 2 == 0) {
           fill(0);
         }
+
         else {
           fill(255);
         }
+
         noStroke();
         rect(intX, intY, 5, 5);
       }
@@ -131,9 +135,11 @@ public class Sketch extends PApplet {
         if (intColumn % 2 == 1 && intRow % 2 == 0) {
           fill(255);
         }
+
         else {
           fill(0);
         }
+        
         noStroke();
         rect(intX, intY, 5, 5);
       }
